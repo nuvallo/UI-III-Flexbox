@@ -291,6 +291,7 @@ footer .copyright {
 .boxes .box-container .box p {
   margin-bottom: 10%;
 }
+
 .boxes .box-container .box a {
   color: #333;
   text-decoration: none;
@@ -298,6 +299,11 @@ footer .copyright {
   background: rgb(252, 252, 252);
   border-radius: 10px;
   border: 1px solid black;
+}
+
+.boxes .box-container .box a:hover {
+  background: #333;
+  color: #ccc;
 }
 
 /* Bottom section */

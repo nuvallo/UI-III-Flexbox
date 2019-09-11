@@ -1,0 +1,28 @@
+@media only screen and (max-width: 1000px) {
+  .logo {
+    display: none;
+  }
+
+  .main-header .navbar ul {
+    flex-direction: column;
+  }
+
+  .main-header .navbar ul li a {
+    text-align: center;
+    display: block;
+  }
+
+  .product-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .products {
+    display: none;
+  }
+
+  .boxes .box-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
